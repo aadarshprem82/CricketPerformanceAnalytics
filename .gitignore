@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project generated data
+data/*.csv
+output/
+
+# Spark generated files
+_SUCCESS
+*.crc
+spark-warehouse/
+metastore_db/
+derby.log
